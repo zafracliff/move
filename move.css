@@ -1,0 +1,81 @@
+#box{
+    position: absolute;
+    height:550px;
+    width: 550px;
+    border: 3px solid black;
+    left: 30%;
+    top: 5%;
+}
+
+#circle{
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 100%;
+    left: 8%;
+    top: 8%;
+}
+
+.key{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+.up{
+    position: absolute;
+    left: 38%;
+    bottom: 40%;
+    text-align: center;
+
+}
+
+.down{
+    position: absolute;
+    bottom: 16%;
+    left: 38%;
+    text-align: center;
+
+}
+
+.left{
+    position: absolute;
+    left: 14%;
+    bottom: 16%;
+    text-align: center;
+
+}
+
+.right{
+    position: absolute;
+    right: 15%;
+    bottom: 16%;
+    text-align: center;
+}
+
+.up:before{
+    content: "\2191";
+    font-size: 80px;
+
+}
+
+.down:before{
+    content: "\2193";
+    font-size: 80px;
+
+}
+
+.left:before{
+     content: "\2190";
+     font-size: 80px;
+
+}
+
+.right:before{
+    content: "\2192";
+    font-size: 80px;
+    
+}
